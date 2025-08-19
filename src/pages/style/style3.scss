@@ -78,16 +78,18 @@ main{
     justify-content: center;
 }
 
-.card2 {
+.card2-3 {
     margin-left: 40px;
     margin-top: 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 300px;
-    width: 490px;
+    height: 250px;
+    width: 720px;
     padding: 50px;
     text-align: center;
+    display: flex;
+ 
   }
 
   .contas{
@@ -97,13 +99,14 @@ main{
 
   h2{
     margin-top: 6px;
-    margin-left: 650px;
+    margin-left: 680px;
   }
 
-  .botao{
+  .botao-3{
     background-color: #527bee; /* Azul da imagem */
     color: white;
-    padding: 12px 70px;
+    height: 50px;
+    width: 216px;
     border: none;
     border-radius: 10px;
     font-size: 16px;
@@ -112,7 +115,7 @@ main{
     transition: background-color 0.3s ease;
   }
 
-  .local{
+  .local-3{
     margin-top: 60px;
     margin-left: 15px;
     display: flex;
@@ -123,9 +126,10 @@ main{
     margin-top: 10px;
   }
 
-  input{
+  .input-3{
     margin-top: 9px;
-    width: 400px;
+    height: 30px;
+    width: 100px;
     padding: 8px 12px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -144,3 +148,68 @@ main{
     border-radius: 3px;       /* Arredondamento nas pontas */
     margin: 20px auto;
   }
+  .cent{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .card-container {
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 194px;
+  width: 640px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+/* Estilos para o grupo de inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Estilização dos campos de entrada (input) */
+.input-group input {
+  height: 41px;
+  width: 120px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #4a90e2; /* Cor da borda ao focar */
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* Estilização do botão */
+.executar-btn {
+  background-color: #5c6fff;
+  color: #ffffff;
+  border: none;
+  height: 50px;
+  width: 216px;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 300px;
+}
+
+.separar{
+  display: flex;
+  gap: 70px;
+}

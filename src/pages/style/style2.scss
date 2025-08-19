@@ -136,6 +136,8 @@ main{
   .text{
     margin-top: 4px;
     margin-right: 170px;
+    display: flex;
+    justify-content: center;
   }
   .linha-amarela{
     height: 3px;
