@@ -1,17 +1,17 @@
-import '../style/inicio.scss'
-import { Link, Links } from 'react-router';
+import '../style/Inicio.scss'
+import { Link } from 'react-router';
 
 export default function Inicio() {
 
 
     return(
         <div className="conteiner-inicio">
-            <header className="header">
-            <div className="cabec">
-                <img className="logo" src="/logo.png" />
-                <h1 className="h1">React FreiS</h1>
+            <header className="header-inicio">
+            <div className="cabec-inicio">
+                <img className="logo-inicio" src="/src/assets/images/frei.webp" />
+                <h1 className="h1-inicio">React FreiS</h1>
             </div>
-            <div className="li"> 
+            <div className="li-inicio"> 
                 <li>Inicio</li>
                 <li>Sobre</li>
             </div>

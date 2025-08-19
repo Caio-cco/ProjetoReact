@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
-.header{
+.header-inicio{
     height: 70px;
     display: flex;
     background-color: #6278F7;
     justify-content: space-between;
 }
 
-.logo{
+.logo-inicio{
     height: 50px;
 }
-.li{
+.li-inicio{
     
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ li{
     font-size: 20px;
 }
 
-.cabec{
+.cabec-inicio{
     
     margin-left: 50px;
     display: flex;
@@ -38,7 +38,7 @@ li{
     gap: 25px;
 }
 
-.h1{
+.h1-inicio{
     font-size: 20px;
     color: white;
 }

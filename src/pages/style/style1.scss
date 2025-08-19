@@ -4,6 +4,10 @@
  box-sizing: border-box;  
 }
 
+.link{
+    text-decoration: none;
+}
+
 body{
     background-color: #EAEAEE;
 }
@@ -101,7 +105,7 @@ main{
   }
 
   .botao{
-    background-color: #527bee; /* Azul da imagem */
+    background-color: #6275FF; /* Azul da imagem */
     color: white;
     padding: 12px 70px;
     border: none;
@@ -138,7 +142,7 @@ main{
     margin-right: 170px;
   }
   .linha-amarela{
-    height: 3px;
+    height: 6px;
     width: 90%;               /* ou um valor fixo como 800px */
     background-color: #FFCC33;
     border-radius: 3px;       /* Arredondamento nas pontas */

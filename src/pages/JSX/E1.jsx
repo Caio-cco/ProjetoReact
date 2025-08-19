@@ -1,6 +1,8 @@
 import { useState } from "react";
-import '../style/E1.scss'
+import '../style/style1.scss'
 import { Link, Links } from 'react-router';
+
+
 export default function Inicio (){
     const [numero, setNumero] = useState(0)
     const [num1, setNum1] = useState(0)
@@ -21,7 +23,9 @@ return(
                 <h1 className="h1">React FreiS</h1>
             </div>
             <div className="li"> 
+           <Link to = {"/"} className="link">
                 <li>Inicio</li>
+                </Link>
                 <li>Sobre</li>
             </div>
         </header>
@@ -54,7 +58,6 @@ return(
         <h2>Resultado: O total é R${numero}</h2>
         </main>
     </div>
-
     
 )
 }
