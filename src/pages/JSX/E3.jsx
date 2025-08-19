@@ -34,7 +34,7 @@ return(
                 <Link to = {"/"} >
                 <img src="/src/assets/images/seta.webp" height={40} />
                 </Link>
-                <h1 className="titulo"> Exercicio 02 - Converter kg/grama</h1>
+                <h1 className="titulo"> Exercicio 03 - Valor total por quantidade</h1>
             </div>
             
             <div class="linha-amarela"></div>
@@ -65,7 +65,7 @@ return(
             </div>
             </div>
           </div> 
-        <h2>Resultado: O total é {numero} gramas</h2>
+        <h2>Resultado: O total é R${numero}</h2>
         </main>
     </div>
 
